@@ -1,27 +1,92 @@
-For storing the services offered by our app, we used a priority queue data structure. For this, each service acyed as an object (as in object-oriented programming) with a name, category, and rating.
+import sqlite3
 
-The priority queue uses the service’s rating to determine its priority, with higher-rated services given more priority. This is a very simplistic way of interpreting what we are aiming for but there are other things that we could do with the app, such as using hash table to store services by category, or use a binary search tree to store services by name for efficient searching.
+class ServiceProviderDatabase:
+    def _init_(self, db_file):
+        self.db_file = db_file
+        self.conn = None
 
-The code is the following;
+    def connect(self):
+        self.conn = sqlite3.connect(self.db_file)
 
-from queue import PriorityQueue
+    def close(self):
+        if self.conn:
+            self.conn.close()
 
-class Service:  # Define a class for the service
-    def __init__(self, name, category, rating):   # Here we have the different aspects explained on the pseudocode, so the name, category, and rating
-        self.name = name
-        self.category = category
-        self.rating = rating
+# Define the search functions
+def search_by_name(db, name):
+    cursor = db.conn.cursor()
+    try:
+        cursor.execute('''
+            SELECT * FROM service_providers
+            WHERE name = ?
+        ''', (name,))
+        rows = cursor.fetchall()
 
-    def __lt__(self, other):    # To compare the rating attribute of two Service instances
-        return self.rating < other.rating
+        print_results(rows)
+    except sqlite3.Error as e:
+        print(f"Error during search by name: {e}")
+    finally:
+        db.close()
 
-class App:  # Define a class for the app
-    def __init__(self):
-        self.services = PriorityQueue() # Create the prioriy queue
+def search_by_sector(db, sector):
+    cursor = db.conn.cursor()
+    try:
+        cursor.execute('''
+            SELECT * FROM service_providers
+            WHERE sector = ?
+            ORDER BY rating DESC
+        ''', (sector,))
+        rows = cursor.fetchall()
 
-    def add_service(self, name, category, rating):  # Add a service to the app
-        service = Service(name, category, rating)
-        self.services.put(service)
+        print_results(rows)
+    except sqlite3.Error as e:
+        print(f"Error during search by sector: {e}")
+    finally:
+        db.close()
 
-    def get_best_service(self): # Get the highest rated service
-        return self.services.get()
+def search_by_rating(db, rating):
+    cursor = db.conn.cursor()
+    try:
+        cursor.execute('''
+            SELECT * FROM service_providers
+            WHERE rating >= ?
+            ORDER BY rating DESC
+        ''', (rating,))
+        rows = cursor.fetchall()
+
+        print_results(rows)
+    except sqlite3.Error as e:
+        print(f"Error during search by rating: {e}")
+    finally:
+        db.close()
+
+def print_results(rows):
+    if not rows:
+        print("No results found.")
+    else:
+        for row in rows:
+            print(row)
+
+if _name_ == "_main_":
+    try:
+        db = ServiceProviderDatabase('service_providers.db')
+        db.connect()
+
+        search_criteria = input("Enter search criteria (name, sector, or rating): ").lower()
+
+        if search_criteria == "name":
+            name_to_search = input("Enter the name to search: ")
+            search_by_name(db, name_to_search)
+        elif search_criteria == "sector":
+            sector_to_search = input("Enter the sector to search: ")
+            search_by_sector(db, sector_to_search)
+        elif search_criteria == "rating":
+            rating_to_search = float(input("Enter the minimum rating to search: "))
+            search_by_rating(db, rating_to_search)
+        else:
+            print("Invalid search criteria. Please enter 'name', 'sector', or 'rating'.")
+    except sqlite3.Error as e:
+        print(f"Error: {e}")
+    finally:
+        if db:
+            db.close()
