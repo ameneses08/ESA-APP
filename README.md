@@ -39,7 +39,7 @@ This project is currently in its early stages of development and primarily inclu
 
 - Read the file: After downloading and saving the respective dataset, the user needs to read the excel file before running the code. This can be done through the command...
   
-- Adapt to Your Needs: The code is flexible and can be adapted to suit your needs. Feel free to modify or extend the code as necessary.
+- Customization to Suit Individual Preferences: It is understood that each user has distinct needs and preferences. Therefore, users are encouraged to tailor the information provided by the code to meet their specific requirements. Users are free to create a copy of the dataframe and modify it as they see fit. The aim is to provide comprehensive information, but it is acknowledged that not all of it may be relevant to every user. If users are specifically interested in babysitting options, they have the flexibility to filter the dataset accordingly. The goal is to support users in finding the most suitable and relevant information.
 
 Please note that this project is still under development, and the current version only includes the basic functions of the application. We’re working hard to add more features and improve the user interface and design. Stay tuned for updates!
 
