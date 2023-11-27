@@ -37,7 +37,8 @@ This project is currently in its early stages of development and primarily inclu
 
 - Obtain the necesary dataset: Once the file is opened in the desired python environment, the user should return to the github repository and address the "Resources/Datasets" folders. Inside they will find the "service providers file. This is the file necessary to run the project. This file will need to be downloaded and saved in the same directory as the python file the user is working on. 
 
-- Read the file: After downloading and saving the respective dataset, the user needs to read the excel file before running the code. This can be done throught the command 
+- Read the file: After downloading and saving the respective dataset, the user needs to read the excel file before running the code. This can be done through the command...
+  
 - Adapt to Your Needs: The code is flexible and can be adapted to suit your needs. Feel free to modify or extend the code as necessary.
 
 Please note that this project is still under development, and the current version only includes the basic functions of the application. We’re working hard to add more features and improve the user interface and design. Stay tuned for updates!
