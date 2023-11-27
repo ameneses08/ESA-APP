@@ -35,7 +35,7 @@ This project is currently in its early stages of development and primarily inclu
 
 - Open the newly downloaded file: The file can be opened in any desired python environment, nevertheless in order to ensure correct implementation of the code, the user should use python version "Python 3.11.5"
 
-- Obtain the necesary dataset: Once the file is opened in the desired python environment, the user should return to the github repository and address the "Resources/Datasets" folders. Inside they will find the "service providers file. This is the file necessary to run the project. This file will need to be downloaded and saved in the same directory as the python file the user is working on. 
+- Obtain the necesary dataset: Once the file is opened in the desired python environment, the user should return to the github repository and address the "Resources/Datasets" folders. Inside they will find the "service providers file. This is file is necessary for running the project. It will need to be downloaded and saved in the same directory as the python file the user is working on. 
 
 - Read the file: After downloading and saving the respective dataset, the user needs to read the excel file before running the code. This can be done through the command...
   
@@ -59,4 +59,14 @@ Their collective expertise and commitment were instrumental in bringing this pro
 
 # Licenses:
 License agreement can be found on the beginning of this document, going by the name of "LICENSE".
+
+# Bibliography (APA7):
+
+Nyakundi, H. (2021, December 14). How to write a good README file for your github project. freeCodeCamp.org. https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+
+West, Z. (2021, July 21). How to create a folder in Github Repos in 4 simple steps. αlphαrithms. https://www.alpharithms.com/how-to-create-a-folder-in-github-repos-463022/ 
+
+Create a repo. GitHub Docs. (n.d.). https://docs.github.com/en/get-started/quickstart/create-a-repo 
+
+
 
