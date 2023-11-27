@@ -31,14 +31,13 @@ Once the code is copied into the environment, the user will return to the github
 # How to Use the Project:
 This project is currently in its early stages of development and primarily includes the basic functions of the application. Here’s how you can use it:
 
-- Open the Code: The first step is to open the code. You can do this by navigating to the file containing the code in this repository.
+- Open the Code section in this repository: After opening this section and encountering the code, the user should continue to press the download icon on the top right corner to proceed to downloading the code.
 
-- Copy the Code: Once you’ve opened the file, you can copy the code. Simply select all the code (Ctrl+A or Cmd+A) and then copy it (Ctrl+C or Cmd+C).
+- Open the newly downloaded file: The file can be opened in any desired python environment, nevertheless in order to ensure correct implementation of the code, the user should use python version "Python 3.11.5"
 
-- Paste in Python Environment: Next, open your Python environment. This could be any environment where Python code can be executed, such as Jupyter Notebook, PyCharm, or even the Python IDLE. Once open, paste the copied code into this environment (Ctrl+V or Cmd+V).
+- Obtain the necesary dataset: Once the file is opened in the desired python environment, the user should return to the github repository and address the "Resources/Datasets" folders. Inside they will find the "service providers file. This is the file necessary to run the project. This file will need to be downloaded and saved in the same directory as the python file the user is working on. 
 
-- Run the Code: After pasting the code, you can run it. Usually, there’s a ‘Run’ button or similar in your Python environment, or you can use a keyboard shortcut like F5.
-
+- Read the file: After downloading and saving the respective dataset, the user needs to read the excel file before running the code. This can be done throught the command 
 - Adapt to Your Needs: The code is flexible and can be adapted to suit your needs. Feel free to modify or extend the code as necessary.
 
 Please note that this project is still under development, and the current version only includes the basic functions of the application. We’re working hard to add more features and improve the user interface and design. Stay tuned for updates!
