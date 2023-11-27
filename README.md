@@ -23,7 +23,10 @@ This repository will present and explain the following content:
 
 # How to Install and Run the Project:
 
-In order to conduct both operations, running and installing the project, the user will need to refer to the "Code" section present at the top of this repository. The user will click on the download icon, which will then begin the downloading process of the code.After the downloading is complete, the code needs to be opened in the desired dedicated Python Integrated Development Environment (IDE). Once the code is copied into the environment, the user will continue to enter their input and make any changes to the code that fit their own personal objectives.
+In order to conduct both operations, running and installing the project, the user will need to refer to the "Code" section present at the top of this repository. The user will click on the download icon, which will then proceed to start the downloading process of the code. After the download is complete, the code will need to be opened in the desired dedicated Python Integrated Development Environment (IDE). 
+
+Once the code is copied into the environment, the user will return to the github repository and refer to the "Resources" section, where they will find the "Datasets' folder with the "service provider" database inside. The user will need to download and save this file in the same directory as the code that was prevoiusly downloaded. Afterwards, the user will need to read the file in their desired python Integrated Development Environment (IDE). Once the file has been read, the user is free to start using the project.
+
 
 # How to Use the Project:
 This project is currently in its early stages of development and primarily includes the basic functions of the application. Here’s how you can use it:
