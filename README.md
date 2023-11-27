@@ -23,7 +23,7 @@ This repository will present and explain the following content:
 
 # How to Install and Run the Project:
 
-In order to conduct both operations, running and installing the project, the user will need to refer to the "Code" section present in this repository. The user will have the opportunity to copy the code and run it in their desired dedicated Python Integrated Development Environment (IDE). Once the code is copied into the environment, the user will continue to enter their input and make any changes to the code that fit their own personal objectives.
+In order to conduct both operations, running and installing the project, the user will need to refer to the "Code" section present at the top of this repository. The user will click on the download icon, which will then begin the downloading process of the code.   the code and run it in their desired dedicated Python Integrated Development Environment (IDE). Once the code is copied into the environment, the user will continue to enter their input and make any changes to the code that fit their own personal objectives.
 
 # How to Use the Project:
 This project is currently in its early stages of development and primarily includes the basic functions of the application. Here’s how you can use it:
