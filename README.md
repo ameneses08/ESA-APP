@@ -31,17 +31,34 @@ Once the code is copied into the environment, the user will return to the github
 # How to Use the Project:
 This project is currently in its early stages of development and primarily includes the basic functions of the application. Here’s how you can use it:
 
-- Open the Code section in this repository: After opening this section and encountering the code, the user should continue to press the download icon on the top right corner to proceed to downloading the code.
 
-- Open the newly downloaded file: The file can be opened in any desired python environment, nevertheless in order to ensure correct implementation of the code, the user should use python version "Python 3.11.5"
+- Refer to the GitHub repository: At the top of the GitHub repository, the user will find a green icon that displays “<> Code”.
 
-- Obtain the necesary dataset: Once the file is opened in the desired python environment, the user should return to the github repository and address the "Resources/Datasets" folders. Inside they will find the "service providers file. This is file is necessary for running the project. It will need to be downloaded and saved in the same directory as the python file the user is working on. 
+- Download the project: The user should click on the green icon to display several options. They should choose the option that says “Download Zip”. This will download all the files 
+  present in the repository, enabling the user to use the project.
 
-- Read the file: After downloading and saving the respective dataset, the user needs to read the excel file before running the code. This can be done through the command...
-  
-- Customization to Suit Individual Preferences: It is understood that each user has distinct needs and preferences. Therefore, users are encouraged to tailor the information provided by the code to meet their specific requirements. Users are free to create a copy of the dataframe and modify it as they see fit. The aim is to provide comprehensive information, but it is acknowledged that not all of it may be relevant to every user. If users are specifically interested in babysitting options, they have the flexibility to filter the dataset accordingly. The goal is to support users in finding the most suitable and relevant information.
+- Open the downloaded file: Once the download is complete, the user should open the file which is called “ESA-APP-main 2”.
+
+- Open the code folder: The user should continue by opening the code folder and the document inside.
+
+- Run the module: Once the document is opened, two screens should appear, but they should leave them alone for the moment. The user should look for an option called “Run” in the toolbar at the upper part of their screen. They should choose this option and click “Run Module”.
+
+- Initialize the application: Clicking “Run Module” will initialize the application. Now, the user is good to go and can start searching for their desired service.
+
+- Choose the search criteria: The screen will present options for choosing the search criteria (name, sector, rating, price, distance). The user should select the desired search criteria.
+
+- Search by sector: If “sector” is chosen as the search criteria, the user should type the desired sector. For example, if one is looking for a plumber, they should type “plumbing”. This will display all the service providers that offer plumbing services.
+
+- Search by name: If the user desires to search by name, they just need to type the name of their desired service provider. This will display the series of services performed by the service provider.
+
+- Search by rating: If the user desires to search by rating, they just need to type the minimum rating each service provider should have. This will display all of the service providers that contain a rating equal to or higher than what was chosen.
+
+- Search by distance: If the user desires to search by distance, they should type their desired distance in kilometers. This will give them a list of all of the services provided within the chosen distance.
+
+- Search by price: If the user wants to search by price, they simply need to type the maximum price they’re willing to pay. A list of available services within the price range will appear.
 
 Please note that this project is still under development, and the current version only includes the basic functions of the application. We’re working hard to add more features and improve the user interface and design. Stay tuned for updates!
+
 
 
 # Credits:
