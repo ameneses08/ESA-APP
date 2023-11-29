@@ -23,27 +23,21 @@ This repository will present and explain the following content:
 
 # How to Install and Run the Project:
 
-In order to conduct both operations, running and installing the project, the user will need to refer to the "Code" section present at the top of this repository. The user will click on the download icon, which will then proceed to start the downloading process of the code. After the download is complete, the code will need to be opened in the desired dedicated Python Integrated Development Environment (IDE). 
+- Refer to the GitHub repository: At the top of the GitHub repository, the user will find a green icon that displays “<> Code”.
 
-Once the code is copied into the environment, the user will return to the github repository and refer to the "Resources" section, where they will find the "Datasets' folder with the "service provider" database inside. The user will need to download and save this file in the same directory as the code that was prevoiusly downloaded. Afterwards, the user will need to read the file in their desired python Integrated Development Environment (IDE). Once the file has been read, the user is free to start using the project.
+- Download the project: The user should click on the green icon to display several options. They should choose the option that says “Download Zip”. This will download all the files 
+  present in the repository, enabling the user to access the project's files.
 
+- Open the downloaded file: Once the download is complete, the user should open the file which is called “ESA-APP-main 2”.
+
+- Open the code folder: The user should continue by opening the code folder and the document inside, preferably in the python environment called pycharm version 2023.2.
+  
+- Run the module: The user should look for an option called “Run” in the toolbar at the right upper part of their screen. They should choose this "Run" option. This will Initialize the application.
 
 # How to Use the Project:
 This project is currently in its early stages of development and primarily includes the basic functions of the application. Here’s how you can use it:
 
-
-- Refer to the GitHub repository: At the top of the GitHub repository, the user will find a green icon that displays “<> Code”.
-
-- Download the project: The user should click on the green icon to display several options. They should choose the option that says “Download Zip”. This will download all the files 
-  present in the repository, enabling the user to use the project.
-
-- Open the downloaded file: Once the download is complete, the user should open the file which is called “ESA-APP-main 2”.
-
-- Open the code folder: The user should continue by opening the code folder and the document inside.
-
-- Run the module: Once the document is opened, two screens should appear, but they should leave them alone for the moment. The user should look for an option called “Run” in the toolbar at the upper part of their screen. They should choose this option and click “Run Module”.
-
-- Initialize the application: Clicking “Run Module” will initialize the application. Now, the user is good to go and can start searching for their desired service.
+- Initialize the application: Clicking “Run” will initialize the application. Now, the user is good to go and can start searching for their desired service.
 
 - Choose the search criteria: The screen will present options for choosing the search criteria (name, sector, rating, price, distance). The user should select the desired search criteria.
 
